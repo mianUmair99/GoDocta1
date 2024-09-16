@@ -31,4 +31,5 @@ module.exports = defineConfig({
       return require('../cypress/plugin/index')(on, config);
     },
   },
+  
 });

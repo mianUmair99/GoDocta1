@@ -26,4 +26,5 @@ describe('Login Functionality Scenarios', () => {
     loginPage.VerifythatErrorDisplayedwhenEnterWrongPassword();
 
   })
+  
 });

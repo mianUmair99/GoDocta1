@@ -8,7 +8,6 @@ class signup {
     confirmPassword = '[placeholder="Confirm Password"]';
     createAccountBtn = '[type="submit"]';
 
-
     enterName(username) {
         cy.get(this.name).should('be.visible').clear().type(username)
     }

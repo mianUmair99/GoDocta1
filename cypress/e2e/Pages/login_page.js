@@ -9,11 +9,12 @@ class login {
   popUp = '.swal2-popup';
   signupBtn = '.fs-6.fw-bold';
 
-  // Functions
+  // Function
 
   enterEmail(mail) {
     cy.get(this.email).should('be.visible').clear().type(mail);
   }
+
 
   enterPassword(password) {
     cy.get(this.password).should('be.visible').clear().type(password);

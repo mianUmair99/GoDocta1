@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules\\.bin\\cypress run --config pageLoadTimeout=100000",
-    "runtests": "npm run test --"
+    "runtests": "npm run test --",
+    "cypress": "node_modules\\.bin\\cypress open --config pageLoadTimeout=100000"
+
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
