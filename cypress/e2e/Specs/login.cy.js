@@ -7,7 +7,7 @@ const genericFunctions = require('../utils/users');
 
 describe('Login Functionality Scenarios', () => {
   beforeEach(() => {
-    cy.visit('https://testing.v2.godocta.com/');
+    cy.visit('https://testing.v2.godocta.com');
   });
 
   it('Verify that user should be able to login with valid credientials.', () => {

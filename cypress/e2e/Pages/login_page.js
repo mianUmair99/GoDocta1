@@ -7,7 +7,7 @@ class login {
   wrongpassword = "form div:nth-child(4) span";
   dashboard = '[href="/dashboard"]';
   popUp = '.swal2-popup';
-  signupBtn = '.fs-6.fw-bold';
+  signupBtn = 'a[href="/register"]';
 
   // Function
 

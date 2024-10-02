@@ -12,7 +12,7 @@ module.exports = defineConfig({
     users: users,
     baseUrl:
       process.env.CYPRESS_BASE_URL ||
-      'https://testing.v2.godocta.com/',
+      'https://testing.v2.godocta.com',
   },
   e2e: {
     supportFile: 'support/e2e.js',
