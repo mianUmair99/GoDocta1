@@ -9,6 +9,7 @@ class login {
   popUp = '.swal2-popup';
   signupBtn = 'a[href="/register"]';
 
+  
   // Function
 
   enterEmail(mail) {

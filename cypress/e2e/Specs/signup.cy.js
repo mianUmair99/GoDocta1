@@ -13,6 +13,7 @@ describe('Login Functionality Scenarios with MailSlurp', () => {
     beforeEach(() => {
         cy.visit('https://testing.v2.godocta.com');
     });
+    
 
     it('Verify that user should be able to signup with valid credentials and fetch verification code from email.', () => {
         // Step 1: Create a new MailSlurp inbox

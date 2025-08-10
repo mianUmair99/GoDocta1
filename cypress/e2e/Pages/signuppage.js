@@ -14,6 +14,7 @@ class signup {
     thirdDigitcode = '#digit-3';
     fourthDigitcode = '#digit-4';
     enterButton = '[type="submit"]';
+    
 
     // Functions and Methods
     enterName(username) {
